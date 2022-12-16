@@ -1,0 +1,10 @@
+﻿name,units,type,target,description,source,n_rows,n_inputs,url
+melting_temp,K,"materials, Magpie",melting temp,experimentally measured melting points of single and binary component solids,Publication,249,1 (chemical formula),https://github.com/anhender/mse_ML_datasets/blob/v1.0/raw_data/Seko_melt_temps.csv
+m2ax,Gpa,"materials, Magpie",bulk modulus,elastic properties of M2AX compounds - bulk modulus in Gpa,Matminer,223,4 + chemical formula,https://hackingmaterials.lbl.gov/matminer/dataset_summary.html#m2ax
+double_perovskites_gap,eV,"materials, Magpie",band gap,electronic band gap calculated via gllbsc in eV,Matminer,1306,4 + chemical formula,https://hackingmaterials.lbl.gov/matminer/dataset_summary.html#double-perovskites-gap
+qm9,cal mol$^{-1}$ K$^{-1}$,"materials, non-Magpie",heat capacity,heat capacity in cal / mol / K at 298.15 K,DeepChem,1339,11,https://deepchemdata.s3-us-west-1.amazonaws.com/datasets/qm9.csv
+concrete,Mpa,"materials, non-Magpie",compressive strength,concrete mixtures and compressive strength in Mpa,UCI ML repository,1030,8,https://archive.ics.uci.edu/ml/datasets/Concrete+Compressive+Strength
+transparent_conductors,eV/atom,"materials, non-Magpie",formation energy,"formation energy, in eV per atom, of transparent conductors",Kaggle,2401,12,https://www.kaggle.com/c/nomad2018-predict-transparent-conductors/data
+fish,g,non-materials,fish weight,weight of fish from their measurements,Kaggle,159,5,https://www.kaggle.com/aungpyaeap/fish-market?ref=hackernoon.com
+airfoil_self_noise,db,non-materials,airfoil sound,NASA data for airfoil noise in decibels,UCI ML repository,1503,5,https://archive.ics.uci.edu/ml/datasets/Airfoil+Self-Noise
+abalone,,non-materials,abalone rings,predict the age of an abalone,UCI ML repository,4177,6,https://archive.ics.uci.edu/ml/datasets/abalone
